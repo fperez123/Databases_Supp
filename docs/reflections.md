@@ -19,3 +19,12 @@ Part A - Relational database tasks
     The syntax of writing the function and procedure became quite confusing as, for example, language plpqsl is declared is different areas of the code for each case.
 
     The procedure created to update the customers information allows me to handle the data issue I introduced by allowing me to update the customers emails and making them no longer NULL
+
+Part B - NoSQL tasks
+
+1. Data creation and updates
+    5 customer documents were creaeted that each are embedded with orders and items. The orders are created using an orders array which then conatin the items array within them. This is done because orders are typically retrieved together with their customer so it makes more sense to store them together rather than storing them all seperatly. The $push operator performs an update into the existing orders without removing anything because $push appends to an array, not replace it. The $set operator changes the email field and leaving the rest untouched, as the $set operator only overwrites the field that you specifically name.
+
+    An imprvement that could be made is that a function to validate that all of the fields of the customer are present and typed correctly
+
+    

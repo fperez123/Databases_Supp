@@ -9,3 +9,8 @@ Part A - Relational database tasks
 
 2. Procedural programming
     I asked claude to help me with the exception handling as I wasn't sure as to how to write it and to also generate the test cases so that I can verify whether the code works or not. 
+
+Part B - NoSQL tasks
+
+1. Data creation and updates
+    Claude was used to replicate the format I used to create the first customer to create 4 more. It was also used to make a suggestion on what could be improved on my code i.e adding schema validation 
