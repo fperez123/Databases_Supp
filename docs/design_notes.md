@@ -5,12 +5,12 @@ Dataset Requirements
 
 2. Schema personalisation
     I made all three modifications to the schema.
-        The attribute amount in payments was changed to payment_amounts
-        The attribute phone_number was added to the table customers
-        The constraint UNIQUE was added to the customer email
+        - The attribute amount in payments was changed to payment_amounts. This was done to clarify what value is being represented in payments
+        - The attribute phone_number was added to the table customers
+        - The constraint UNIQUE was added to the customer email to ensure that no two customer emails are the same
 
 3. Parameter personalisation
     The personalised threshold that came from the last 3 digits of my student ID are 083
 
 4. Data quality variation 
-    The data issue of NULL values was created for the email of two of the new customers that added. 
+    The data issue of NULL values was created for the email of two of the new customers that added. This is to replicate a real world scenario where certain rows in a table may be empty  
